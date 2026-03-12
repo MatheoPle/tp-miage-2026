@@ -75,6 +75,8 @@ Cette commande permet de lancer une base PostgreSQL en Docker :
 * Compléter le code manquant dans la méthode `TodoListController.createTodoItem()`
 
 *Pourquoi `todoItemRepository` est-il `null` ? Quelle est la meilleure façon de l'injecter ?*
+todoItemRepository est null car il n'est pas injecté dans la classe TodoListController.
+La meilleure façon de l'injecter est de le faire dans le constructeur de la classe TodoListController.
 
 * Modifier le code en conséquence.
 
