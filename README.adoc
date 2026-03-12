@@ -65,6 +65,12 @@ Non car elle dépend du temps qui est une donnée mouvante.
 docker run -it -e POSTGRES_PASSWORD=password -p 5432:5432 postgres
 ```
 *Expliquer cette ligne de commande (y compris les options utilisées)*
+Cette commande permet de lancer une base PostgreSQL en Docker :
+- docker run : lancer un nouveau conteneur en docker
+- -it : mode interactif
+- -e : définition des variables d'environnement POSTGRES_PASSWORD=password
+- -p 5432:5432 : mapping des ports
+- postgres : nom de officiel de l'image
 
 * Compléter le code manquant dans la méthode `TodoListController.createTodoItem()`
 
