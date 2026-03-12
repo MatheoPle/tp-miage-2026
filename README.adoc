@@ -1,10 +1,10 @@
 # TP MIAGE conception logicielle
 
-## Nom du(des) étudiant(e)(s) de ce monôme/binôme 
+## Nom du(des) étudiant(e)(s) de ce monôme/binôme
 
 WARNING: **NE PAS OUBLIER DE MENTIONNER ICI LES NOMS DE TOUS LES MEMBRES DU BINOME. SEULS LES NOMS ICI PRESENTS SERONT NOTÉS. PAS LA PEINE DE ME PRÉVENIR PAR MAIL, JE CONSULTE UNIQUEMENT LES FORKS GITHUB DE MON DEPOT.**
 
-#XXX# (et #YYY#)
+#PIERRE Elona# et #PELOILLE Mathéo#
 
 Commentaires éventuels des étudiants : #XXXXXX#
 
