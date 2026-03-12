@@ -118,6 +118,11 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
   - la couche `domain` qui contient les entités (au sens DDD, pas au sens JPA). En général des classes complexes (méthodes riches, relations entre les entités)
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
+Dans l'architecture hexagonale, le fonctionnel est au milieu (domaine) et le technique dans des adaptateurs.
+Le domaine métier est entouré de ports qui sont implémentés par des adaptateurs.
+Les ports sont des portes d'entrées et de sorties vers le domaine.
+Cela permet de réduire le couplage.
+Pour respecter l'architecture, il ne doit pas y avoir d'appels entre adaptateurs et d'appels entre le domaine et les adaptateurs.
 
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 
